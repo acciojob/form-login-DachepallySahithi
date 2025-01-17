@@ -1,6 +1,11 @@
 function getFormvalue() {
     //Write your code here
-	var firstName = document.getElementById("fname").value;
-	var lastName = document.getEementById("lname").value;
-	alert(firstName + " " + lastName);
+	const firstNameInput = document.getElementById('firstName');
+	const lastNameInput = document.getElementById('lastName');
+	
+	const firstName = firstNameInput.value;
+    const lastName = lastNameInput.value;
+
+    const fullName = firstName + " " + lastName;
+	alert(fullName);
 }
