@@ -7,5 +7,6 @@ function getFormvalue() {
 	const lastName = lastNameInput.value;
 
 	const fullName = firstName + " " + lastName;
-	alert(fullName);
+	// alert(fullName);
+	
 }
